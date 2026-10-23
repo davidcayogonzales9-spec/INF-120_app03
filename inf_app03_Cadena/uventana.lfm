@@ -1,0 +1,256 @@
+object Form1: TForm1
+  Left = 260
+  Height = 678
+  Top = 68
+  Width = 860
+  Caption = 'OPERACIONES CON CADENA'
+  ClientHeight = 678
+  ClientWidth = 860
+  Color = 65408
+  LCLVersion = '4.8.0.0'
+  object Label1: TLabel
+    Left = 384
+    Height = 25
+    Top = 0
+    Width = 77
+    Caption = 'CADENA'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object SG: TStringGrid
+    Left = 232
+    Height = 70
+    Top = 40
+    Width = 392
+    DefaultColWidth = 45
+    RowCount = 1
+    TabOrder = 0
+  end
+  object POS: TEdit
+    Left = 232
+    Height = 23
+    Top = 120
+    Width = 392
+    TabOrder = 1
+    TextHint = 'Posicion...'
+  end
+  object ELE: TEdit
+    Left = 232
+    Height = 23
+    Top = 150
+    Width = 392
+    TabOrder = 2
+    TextHint = 'Elemento'
+  end
+  object Button1: TButton
+    Left = 32
+    Height = 26
+    Top = 200
+    Width = 392
+    Caption = 'CREAR'
+    TabOrder = 3
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 32
+    Height = 25
+    Top = 228
+    Width = 392
+    Caption = 'SETDIM'
+    TabOrder = 4
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 32
+    Height = 25
+    Top = 256
+    Width = 392
+    Caption = 'GETDIM'
+    TabOrder = 5
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Left = 32
+    Height = 25
+    Top = 288
+    Width = 392
+    Caption = 'SETCHAR'
+    TabOrder = 6
+    OnClick = Button4Click
+  end
+  object Button5: TButton
+    Left = 32
+    Height = 25
+    Top = 320
+    Width = 392
+    Caption = 'GETCHAR'
+    TabOrder = 7
+    OnClick = Button5Click
+  end
+  object Button6: TButton
+    Left = 32
+    Height = 25
+    Top = 352
+    Width = 392
+    Caption = 'ADDCHAR'
+    TabOrder = 8
+    OnClick = Button6Click
+  end
+  object Button7: TButton
+    Left = 32
+    Height = 25
+    Top = 384
+    Width = 392
+    Caption = 'INSCHAR'
+    TabOrder = 9
+    OnClick = Button7Click
+  end
+  object Button8: TButton
+    Left = 32
+    Height = 25
+    Top = 416
+    Width = 392
+    Caption = 'ELIMCHAR'
+    TabOrder = 10
+    OnClick = Button8Click
+  end
+  object Button9: TButton
+    Left = 440
+    Height = 25
+    Top = 202
+    Width = 392
+    Caption = 'CANTPAL'
+    TabOrder = 11
+    OnClick = Button9Click
+  end
+  object Button10: TButton
+    Left = 440
+    Height = 25
+    Top = 234
+    Width = 392
+    Caption = 'BUSQPAL'
+    TabOrder = 12
+    OnClick = Button10Click
+  end
+  object Button11: TButton
+    Left = 440
+    Height = 25
+    Top = 262
+    Width = 392
+    Caption = 'ADDPAL'
+    TabOrder = 13
+    OnClick = Button11Click
+  end
+  object Button12: TButton
+    Left = 440
+    Height = 25
+    Top = 290
+    Width = 392
+    Caption = 'INSPAL'
+    TabOrder = 14
+    OnClick = Button12Click
+  end
+  object Button13: TButton
+    Left = 440
+    Height = 25
+    Top = 322
+    Width = 392
+    Caption = 'ELIMPAL'
+    TabOrder = 15
+    OnClick = Button13Click
+  end
+  object Button14: TButton
+    Left = 440
+    Height = 25
+    Top = 354
+    Width = 392
+    Caption = 'CAMPAL'
+    TabOrder = 16
+    OnClick = Button14Click
+  end
+  object Button15: TButton
+    Left = 240
+    Height = 25
+    Top = 616
+    Width = 392
+    Caption = 'SALIR'
+    TabOrder = 17
+    OnClick = Button15Click
+  end
+  object Button16: TButton
+    Left = 32
+    Height = 25
+    Top = 448
+    Width = 395
+    Caption = 'INTERCHAR'
+    TabOrder = 18
+    OnClick = Button16Click
+  end
+  object Button17: TButton
+    Left = 32
+    Height = 25
+    Top = 476
+    Width = 395
+    Caption = 'CANTCHAR'
+    TabOrder = 19
+    OnClick = Button17Click
+  end
+  object Button18: TButton
+    Left = 32
+    Height = 25
+    Top = 504
+    Width = 395
+    Caption = 'BUSQCHAR'
+    TabOrder = 20
+    OnClick = Button18Click
+  end
+  object Button19: TButton
+    Left = 440
+    Height = 25
+    Top = 408
+    Width = 392
+    Caption = 'INVERTIR'
+    TabOrder = 21
+    OnClick = Button19Click
+  end
+  object Button20: TButton
+    Left = 440
+    Height = 25
+    Top = 436
+    Width = 392
+    Caption = 'ROTAR'
+    TabOrder = 22
+    OnClick = Button20Click
+  end
+  object Button21: TButton
+    Left = 440
+    Height = 25
+    Top = 464
+    Width = 392
+    Caption = 'MAYUS'
+    TabOrder = 23
+    OnClick = Button21Click
+  end
+  object Button22: TButton
+    Left = 440
+    Height = 25
+    Top = 496
+    Width = 392
+    Caption = 'MINUS'
+    TabOrder = 24
+    OnClick = Button22Click
+  end
+  object Button23: TButton
+    Left = 440
+    Height = 25
+    Top = 528
+    Width = 392
+    Caption = 'TITULO'
+    TabOrder = 25
+    OnClick = Button23Click
+  end
+end
